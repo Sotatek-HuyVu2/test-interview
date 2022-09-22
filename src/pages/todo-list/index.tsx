@@ -33,7 +33,7 @@ const TodoList = () => {
           <button type='submit'>+</button>
         </form>
       </div>
-      <div className='list'>
+      <div className='list-todo'>
         {count > 0 &&
           todos.map((todo: { id: string; text: string }) => (
             <TodoItem key={todo.id} text={todo.text} />

@@ -35,6 +35,7 @@ const ListBox = () => {
       alert('Empty');
     }
   };
+
   const handleDeleteBox = (id: string) => {
     dispatch(removeBox(id));
   };

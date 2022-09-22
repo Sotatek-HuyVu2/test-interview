@@ -15,6 +15,7 @@ const BoxItem = (props: any) => {
     const newListChildlistChild = listChild.filter((c: any) => c.id !== idChild);
     dispatch(moveChildToBox([...newListChildlistChild, { ...newChild, idParent: idBox }]));
   };
+
   const onDeleteChild = (id: string) => {
     dispatch(removeChild(id));
   };
