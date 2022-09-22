@@ -27,6 +27,20 @@
 .App-link {
   color: #61dafb;
 }
+.menu{
+  margin: 70px 50px 50px 50px;
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+.menu a{
+  color: #000000;
+  text-decoration: none;
+}
+.menu .menu-active{
+  text-decoration: underline;
+  color: brown;
+}
 
 @keyframes App-logo-spin {
   from {
